@@ -1,0 +1,65 @@
+{
+  "appclips": {
+    "apps": [
+      "49BJ58VWBC.com.newstore.inc.giovannadodici.demo.catalog-clip",
+      "3SP48R4NU6.com.dodici.app.catalog-clip",
+      "3SP48R4NU6.com.dodici.membership.demo.app.membership-clip"
+    ]
+  },
+  "applinks": {
+    "apps": [],
+    "details": {
+      "3SP48R4NU6.com.dodici.app": {
+        "paths": [
+          "NOT /checkout",
+          "NOT /checkout/*",
+          "NOT /*/checkout",
+          "NOT /*/checkout/*",
+          "NOT /redirect/*",
+          "NOT /*/redirect/*",
+          "NOT /api",
+          "NOT /api/*",
+          "NOT /*/api",
+          "NOT /*/api/*",
+          "NOT /apiocc",
+          "NOT /apiocc/*",
+          "/*"
+        ]
+      },
+      "3SP48R4NU6.com.dodici.membership.demo.app": {
+        "paths": [
+          "NOT /checkout",
+          "NOT /checkout/*",
+          "NOT /*/checkout",
+          "NOT /*/checkout/*",
+          "NOT /redirect/*",
+          "NOT /*/redirect/*",
+          "NOT /api",
+          "NOT /api/*",
+          "NOT /*/api",
+          "NOT /*/api/*",
+          "NOT /apiocc",
+          "NOT /apiocc/*",
+          "/*"
+        ]
+      }
+      "49BJ58VWBC.com.newstore.inc.giovannadodici.demo": {
+        "paths": [
+          "NOT /checkout",
+          "NOT /checkout/*",
+          "NOT /*/checkout",
+          "NOT /*/checkout/*",
+          "NOT /redirect/*",
+          "NOT /*/redirect/*",
+          "NOT /api",
+          "NOT /api/*",
+          "NOT /*/api",
+          "NOT /*/api/*",
+          "NOT /apiocc",
+          "NOT /apiocc/*",
+          "/*"
+        ]
+      }
+    }
+  }
+}
